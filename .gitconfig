@@ -1,0 +1,8 @@
+[credential]
+	helper = osxkeychain
+[user]
+	name = Jef Vlamings
+	email = vlamingsjef@gmail.com
+[core]
+	excludesfile = /Users/jefvlamings/.gitignore
+	editor = vim
