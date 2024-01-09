@@ -104,6 +104,9 @@ alias projects="cd '/Users/jefvlamings/jef@frontier.be - Google Drive/Shared dri
 alias dev="cd /opt/homebrew/var/www"
 alias vim="nvim"
 
+# Disable Ctrl+k
+bindkey '^k' ''
+
 # Set idea as default diff tool for rails:update
 export THOR_MERGE=idea-merge
 
