@@ -42,8 +42,8 @@ vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 -- Buffers
-vim.keymap.set("n", "<C-[>", ":bp<CR>")
-vim.keymap.set("n", "<C-]>", ":bn<CR>")
+vim.keymap.set("n", "<C-n>", ":bnext<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-p>", ":bprev<CR>", { noremap = true, silent = true })
 require("bufferline").setup{
 	options = {
 		indicator = {
@@ -56,6 +56,9 @@ require("bufferline").setup{
 		right_trunc_marker = '>',
 	}
 }
+
+-- Tags
+vim.keymap.set("n", "gd", ":tag <C-R><C-W><CR>")
 
 -- FZF
 vim.keymap.set("n", "<leader>ff","<cmd>lua require('fzf-lua').files()<CR>", { silent = true })

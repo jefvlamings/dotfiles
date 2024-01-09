@@ -1,0 +1,6 @@
+--exclude=.git
+--exclude=db
+--exclude=node_modules
+--exclude=tags
+--exclude=tmp
+--exclude=log
