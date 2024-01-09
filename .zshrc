@@ -107,18 +107,17 @@ alias vim="nvim"
 # Set idea as default diff tool for rails:update
 export THOR_MERGE=idea-merge
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+# Homebrew
 PATH="/opt/homebrew/bin:$PATH"
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="/opt/homebrew/sbin:$PATH"
 
+# NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export PATH="/opt/homebrew/Cellar/php@7.4/7.4.28/bin:$PATH"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+# RVM
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/opt/homebrew/opt/openssl@1.0/bin:$PATH"
 
