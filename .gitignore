@@ -1,0 +1,8 @@
+# IntelliJ IDEA
+.idea/
+headmin-cms.iml
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
+# Ctags
+tags
